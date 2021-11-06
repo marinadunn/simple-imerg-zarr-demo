@@ -1,0 +1,13 @@
+carbonplan_data
+pooch
+netcdf4
+pytest
+rasterio
+rioxarray
+git+git://github.com/TomNicholas/datatree
+git+git://github.com/carbonplan/ndpyramid
+numpy
+xarray
+zarr
+carbonplan_data
+intake

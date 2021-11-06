@@ -14,12 +14,12 @@ const Index = () => {
         />
         <Raster
           colormap={colormap}
-          clim={[-20, 30]}
+          clim={[0, 1]}
           display={true}
           opacity={1}
           mode={'texture'}
-          source={'https://storage.googleapis.com/carbonplan-share/maps-demo/2d/tavg'}
-          variable={'tavg'}
+          source={'http://localhost:8000/gpmimerg.zarr/'}
+          variable={'precipitation'}
         />
       </Map>
     </div>
